@@ -1,0 +1,105 @@
+@font-face {
+  font-family: attemptyon;
+  src: url(../../font/attemptyon-font/Attemptyon-qvYx.ttf);
+}
+
+body {
+  margin: 0px;
+}
+
+/* fonts:
+may use 
+acme
+alata
+or syne medium
+
+then attemptyon for the arami
+ */
+
+header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+span.red {
+  color: red;
+}
+
+a.link {
+  text-decoration: none;
+  color: grey;
+}
+
+a.link:hover {
+  color: rgb(90, 88, 88);
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgb(90, 88, 88);
+}
+
+a.link:visited {
+  text-decoration: none;
+  color: rgb(104, 99, 99);
+}
+
+a.link:active {
+  text-decoration: none;
+  color: rgb(104, 99, 99);
+}
+.bottom {
+  border-radius: 150px 150px 0px 0px;
+  height: 750px;
+  width: auto;
+  /* background-image: url(../images/arami-ivory-butter.jpg); */
+  background: linear-gradient( rgba(15, 15, 15, 0.5), rgba(107, 107, 104, 0.5) ), url("../images/arami-ivory-butter.jpg");
+  /* background: linear-gradient( rgba(73, 71, 202, 0.5), rgba(54, 54, 49, 0.5) ), url("../images/arami-ivory-butter.jpg"); */
+  /* background: linear-gradient( rgba(24, 24, 23, 0.5), rgba(107, 107, 104, 0.5) ), url("../images/arami-ivory-butter.jpg"); */
+  /* background-image: url("../images/arami-ivory-butter.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* opacity: .5; */
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin-top: 150px;
+  height: 40px;
+  margin-bottom: 30px;
+  /* background-color: inherit; */
+  color: white;
+  background-color: transparent;
+  /* opacity: ; */
+}
+
+a.partnership {
+  background-color: inherit;
+  color: white;
+  text-decoration: none;
+}
+
+p{
+    color: white;
+    margin-top: 10px;
+}
+.arami
+{
+    margin-top: 200px;
+}
+
+p {
+  font-family: attemptyon;
+
+  font-size: 90px;
+}
+
+span.bigA
+{
+    font-size: 200px;
+}
+
